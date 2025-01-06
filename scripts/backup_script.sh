@@ -1,7 +1,7 @@
 # scripts/backup_script.sh
 #!/bin/bash
 
-source /path/to/scripts/send_notification.sh  # Adjust path to your send_notification.sh file
+source ~/send_notification.sh  # Adjust path to your send_notification.sh file
 
 USER_NAME=$(whoami)  
 BACKUP_DIR="./backups/${USER_NAME}"
