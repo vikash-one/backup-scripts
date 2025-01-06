@@ -1,6 +1,6 @@
 # config/config.json
 {
-    "email_recipient": "user@example.com",
+    "email_recipient": "vikash.1@freecharge.com",
     "backup_dir": "./backups",
     "retention_days": 1
 }
