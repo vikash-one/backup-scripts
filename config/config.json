@@ -1,0 +1,7 @@
+# config/config.json
+{
+    "email_recipient": "user@example.com",
+    "backup_dir": "./backups",
+    "retention_days": 1
+}
+
