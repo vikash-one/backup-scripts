@@ -8,7 +8,7 @@ BACKUP_DIR="./backups/${USER_NAME}"
 BACKUP_FILE="backup_${USER_NAME}_$(date +'%Y%m%d_%H%M%S').tar.gz"
 HOME_DIR="$HOME"
 LOG_FILE="./logs/backup.log"
-EMAIL_RECIPIENT="user@example.com"
+EMAIL_RECIPIENT="vikash.1@freecharge.com"
 RETENTION_DAYS=1  
 
 send_email "Backup Start - ${USER_NAME}" "Backup process started at $(date)." "${EMAIL_RECIPIENT}"
